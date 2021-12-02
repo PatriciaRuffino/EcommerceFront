@@ -12,7 +12,7 @@ const Categories = () => {
     <>
       <section className="py-5 section-bg">
         <div className="container">
-          <Title title="BROWSE OUR CATEGORIES" />
+          <Title title="Categorias" />
           <div className="row">
             <div className="col-6 col-md-4 mb-4 mb-md-0 mx-auto">
               <Link to="/shirts">

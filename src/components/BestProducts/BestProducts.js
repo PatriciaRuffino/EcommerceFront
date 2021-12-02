@@ -11,7 +11,7 @@ const BestProducts = ({ bestProducts }) => {
     return (
       <section className="py-5">
         <div className="container">
-          <Title title="BEST SELLING" />
+          <Title title="Mais Vendidos" />
           <div className="row">
             <div className="col-10 mx-auto col-md-6">
               <Loading />
@@ -26,7 +26,7 @@ const BestProducts = ({ bestProducts }) => {
     <>
       <section className="py-5">
         <div className="container">
-          <Title title="BEST SELLING" />
+          <Title title="Mais Vendidos" />
           <div className="row">
             {bestProducts.map((product) => {
               return (
